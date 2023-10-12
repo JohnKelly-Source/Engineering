@@ -30,7 +30,7 @@ body{
   padding: 10px;
   background-color: #FFFFFF;
   margin-right: auto;
-    font-size: 18px;  
+  font-size: 18px;  
   margin-left: auto; 
   min-width: 500px;
   max-width: calc(50% - 20px);
@@ -233,7 +233,6 @@ img.example{
 border:1.5px hidden #e5e5e5;
 border-radius: 12px;
 }
-1
 /*Engineering stuff*/
 .zoom {
   padding: 50px;
@@ -246,4 +245,8 @@ border-radius: 12px;
 .zoom:hover {
   transform: scale(1.5);
 }
-
+footer{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
