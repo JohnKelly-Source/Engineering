@@ -130,6 +130,17 @@ th{
   text-align: left;
 }
 
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
 @keyframes spring {
   25% {
     -webkit-transform-origin: center center;
@@ -181,7 +192,11 @@ li.navlist:hover {
     main2{
         color: #FFFFFF;
     }
- 
+ table,
+td {
+  border: 1px solid #e5e5e5;
+}
+	
 }
 /* image blur and text*/
 .img-wrapper {
